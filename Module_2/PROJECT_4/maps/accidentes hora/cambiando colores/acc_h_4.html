@@ -1,0 +1,1317 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7ea37b4e021e4174a8cc6d3bbdb75476 {
+                    position: relative;
+                    width: 50.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_7ea37b4e021e4174a8cc6d3bbdb75476" ></div>
+        
+</body>
+<script>    
+    
+            var map_7ea37b4e021e4174a8cc6d3bbdb75476 = L.map(
+                "map_7ea37b4e021e4174a8cc6d3bbdb75476",
+                {
+                    center: [41.3902, 2.154],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_442ff4df995b468898aaf442905a60f3 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+            var circle_marker_3757619648ef404fb80f9f647287ab6f = L.circleMarker(
+                [41.367177000000005, 2.138251],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_0f30f0176a4f473580b54b20c80b8a8c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77b6f9c803fe47fbab029808b4fd54b8 = $(`<div id="html_77b6f9c803fe47fbab029808b4fd54b8" style="width: 100.0%; height: 100.0%;"><br>adress: Corts Catalanes                                   <br> total death: 0<br> total injured: 0</div>`)[0];
+            popup_0f30f0176a4f473580b54b20c80b8a8c.setContent(html_77b6f9c803fe47fbab029808b4fd54b8);
+        
+
+        circle_marker_3757619648ef404fb80f9f647287ab6f.bindPopup(popup_0f30f0176a4f473580b54b20c80b8a8c)
+        ;
+
+        
+    
+    
+            var circle_marker_a41dcb57bdf1420f8dc78983cd160ffe = L.circleMarker(
+                [41.370523, 2.1426950000000002],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_da5f6d1b5914407f955cbcc5047e8ceb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bcee5e6fec344bd88bb109008587366b = $(`<div id="html_bcee5e6fec344bd88bb109008587366b" style="width: 100.0%; height: 100.0%;"><br>adress: Corts Catalanes                                   <br> total death: 0<br> total injured: 3</div>`)[0];
+            popup_da5f6d1b5914407f955cbcc5047e8ceb.setContent(html_bcee5e6fec344bd88bb109008587366b);
+        
+
+        circle_marker_a41dcb57bdf1420f8dc78983cd160ffe.bindPopup(popup_da5f6d1b5914407f955cbcc5047e8ceb)
+        ;
+
+        
+    
+    
+            var circle_marker_1313d14f2e4944d8b94bea985363f06a = L.circleMarker(
+                [41.371116, 2.165907],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_cb5fad571b2d4b0aa58779951938d01a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4e0f011506f04302a57d8a492f0c5d35 = $(`<div id="html_4e0f011506f04302a57d8a492f0c5d35" style="width: 100.0%; height: 100.0%;"><br>adress: Nou de la Rambla                                  <br> total death: 0<br> total injured: 1</div>`)[0];
+            popup_cb5fad571b2d4b0aa58779951938d01a.setContent(html_4e0f011506f04302a57d8a492f0c5d35);
+        
+
+        circle_marker_1313d14f2e4944d8b94bea985363f06a.bindPopup(popup_cb5fad571b2d4b0aa58779951938d01a)
+        ;
+
+        
+    
+    
+            var circle_marker_40037852e39a46ddb6fa547107ccc8ec = L.circleMarker(
+                [41.371390999999996, 2.143796],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_816d42bb856d4da3adfc9d92c96b025f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_344c4fc4a2c247ebbf80c2e5f78dd80f = $(`<div id="html_344c4fc4a2c247ebbf80c2e5f78dd80f" style="width: 100.0%; height: 100.0%;"><br>adress: Corts Catalanes                                   <br> total death: 0<br> total injured: 2</div>`)[0];
+            popup_816d42bb856d4da3adfc9d92c96b025f.setContent(html_344c4fc4a2c247ebbf80c2e5f78dd80f);
+        
+
+        circle_marker_40037852e39a46ddb6fa547107ccc8ec.bindPopup(popup_816d42bb856d4da3adfc9d92c96b025f)
+        ;
+
+        
+    
+    
+            var circle_marker_4964eae3181845c5a6adec8bfdf6943e = L.circleMarker(
+                [41.370077, 2.1743740000000003],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_934eb9cb1cfd43a48e4fd86dd5b95fc2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_15b9add5a2824b2ea2a28af168c9689f = $(`<div id="html_15b9add5a2824b2ea2a28af168c9689f" style="width: 100.0%; height: 100.0%;"><br>adress: B-10 (Besòs)                                      <br> total death: 0<br> total injured: 0</div>`)[0];
+            popup_934eb9cb1cfd43a48e4fd86dd5b95fc2.setContent(html_15b9add5a2824b2ea2a28af168c9689f);
+        
+
+        circle_marker_4964eae3181845c5a6adec8bfdf6943e.bindPopup(popup_934eb9cb1cfd43a48e4fd86dd5b95fc2)
+        ;
+
+        
+    
+    
+            var circle_marker_34d9415a2d6f4026b6ae748478db50fd = L.circleMarker(
+                [41.374971, 2.170003],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_87f9e14f02834ebca7de06388e5037d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_250c16a82ba941fba5a202b167937b9a = $(`<div id="html_250c16a82ba941fba5a202b167937b9a" style="width: 100.0%; height: 100.0%;"><br>adress: Paral·lel / Nou de la Rambla                      <br> total death: 0<br> total injured: 1</div>`)[0];
+            popup_87f9e14f02834ebca7de06388e5037d2.setContent(html_250c16a82ba941fba5a202b167937b9a);
+        
+
+        circle_marker_34d9415a2d6f4026b6ae748478db50fd.bindPopup(popup_87f9e14f02834ebca7de06388e5037d2)
+        ;
+
+        
+    
+    
+            var circle_marker_8940ab9f009e4394bbfcbd943aafdfba = L.circleMarker(
+                [41.374971, 2.170003],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_02aaa75c0533479e93688876d1ab9dd3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_786095f215d3487ea3cf3799093d4f06 = $(`<div id="html_786095f215d3487ea3cf3799093d4f06" style="width: 100.0%; height: 100.0%;"><br>adress: Nou de la Rambla / Paral·lel                      <br> total death: 0<br> total injured: 0</div>`)[0];
+            popup_02aaa75c0533479e93688876d1ab9dd3.setContent(html_786095f215d3487ea3cf3799093d4f06);
+        
+
+        circle_marker_8940ab9f009e4394bbfcbd943aafdfba.bindPopup(popup_02aaa75c0533479e93688876d1ab9dd3)
+        ;
+
+        
+    
+    
+            var circle_marker_a42d501636934c80966ef5257537fcfa = L.circleMarker(
+                [41.380637, 2.132277],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_26550eaddc60405ca0c4c7a50635aebd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e178a49255e94f1dafb8ad4a780842ad = $(`<div id="html_e178a49255e94f1dafb8ad4a780842ad" style="width: 100.0%; height: 100.0%;"><br>adress: Madrid                                            <br> total death: 0<br> total injured: 1</div>`)[0];
+            popup_26550eaddc60405ca0c4c7a50635aebd.setContent(html_e178a49255e94f1dafb8ad4a780842ad);
+        
+
+        circle_marker_a42d501636934c80966ef5257537fcfa.bindPopup(popup_26550eaddc60405ca0c4c7a50635aebd)
+        ;
+
+        
+    
+    
+            var circle_marker_49aa2efbe0ec41aebbf9edf1a9c4bbc6 = L.circleMarker(
+                [41.38219, 2.14719],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_d1d1bf0d1ac9463db54e858ce9c8b65b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81f3a9be0155422c88a2dcf6788dc6d1 = $(`<div id="html_81f3a9be0155422c88a2dcf6788dc6d1" style="width: 100.0%; height: 100.0%;"><br>adress: Roma / Entença                                    <br> total death: 0<br> total injured: 0</div>`)[0];
+            popup_d1d1bf0d1ac9463db54e858ce9c8b65b.setContent(html_81f3a9be0155422c88a2dcf6788dc6d1);
+        
+
+        circle_marker_49aa2efbe0ec41aebbf9edf1a9c4bbc6.bindPopup(popup_d1d1bf0d1ac9463db54e858ce9c8b65b)
+        ;
+
+        
+    
+    
+            var circle_marker_687900a9d1ed4cbd97e44af78ac38a78 = L.circleMarker(
+                [41.381103, 2.185762],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_b9ab0c3837fb4361b25993b9f0d279e4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cae7e2f1f46a4570914fc806a18888f3 = $(`<div id="html_cae7e2f1f46a4570914fc806a18888f3" style="width: 100.0%; height: 100.0%;"><br>adress: Pau Vila                                          <br> total death: 0<br> total injured: 1</div>`)[0];
+            popup_b9ab0c3837fb4361b25993b9f0d279e4.setContent(html_cae7e2f1f46a4570914fc806a18888f3);
+        
+
+        circle_marker_687900a9d1ed4cbd97e44af78ac38a78.bindPopup(popup_b9ab0c3837fb4361b25993b9f0d279e4)
+        ;
+
+        
+    
+    
+            var circle_marker_c0988b00b42f4e34801664ed54c07e4e = L.circleMarker(
+                [41.38296, 2.186992],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_6c344bffe470428ebe2b43f01b3eb693 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_95b8fae9ceb04cf9b5796e9da689740b = $(`<div id="html_95b8fae9ceb04cf9b5796e9da689740b" style="width: 100.0%; height: 100.0%;"><br>adress: Doctor Aiguader                                   <br> total death: 0<br> total injured: 0</div>`)[0];
+            popup_6c344bffe470428ebe2b43f01b3eb693.setContent(html_95b8fae9ceb04cf9b5796e9da689740b);
+        
+
+        circle_marker_c0988b00b42f4e34801664ed54c07e4e.bindPopup(popup_6c344bffe470428ebe2b43f01b3eb693)
+        ;
+
+        
+    
+    
+            var circle_marker_90b6dc63bee648a397c4611a3d18c7a8 = L.circleMarker(
+                [41.382535, 2.194296],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_7c00ce96c6d147ba8a14e025e3d4845c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27531412a46b4495b88c9dcbecac996b = $(`<div id="html_27531412a46b4495b88c9dcbecac996b" style="width: 100.0%; height: 100.0%;"><br>adress: Marítim de la Barceloneta / Gas                   <br> total death: 0<br> total injured: 1</div>`)[0];
+            popup_7c00ce96c6d147ba8a14e025e3d4845c.setContent(html_27531412a46b4495b88c9dcbecac996b);
+        
+
+        circle_marker_90b6dc63bee648a397c4611a3d18c7a8.bindPopup(popup_7c00ce96c6d147ba8a14e025e3d4845c)
+        ;
+
+        
+    
+    
+            var circle_marker_d4a279a0377949678b2b6764e73cb023 = L.circleMarker(
+                [41.38333, 2.183401],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_1acd3ddcc0e941ca954318fe6dfd0e7b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fc8fbdb0fd0149deaf2bf95d549fe027 = $(`<div id="html_fc8fbdb0fd0149deaf2bf95d549fe027" style="width: 100.0%; height: 100.0%;"><br>adress: Palau                                             <br> total death: 0<br> total injured: 0</div>`)[0];
+            popup_1acd3ddcc0e941ca954318fe6dfd0e7b.setContent(html_fc8fbdb0fd0149deaf2bf95d549fe027);
+        
+
+        circle_marker_d4a279a0377949678b2b6764e73cb023.bindPopup(popup_1acd3ddcc0e941ca954318fe6dfd0e7b)
+        ;
+
+        
+    
+    
+            var circle_marker_36b206eac73f42ae8b1a0b5979276383 = L.circleMarker(
+                [41.383103000000006, 2.184285],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_84c69c1544e3410198742303e178b1ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c2673c82dcc34ce2acd5977224421d5f = $(`<div id="html_c2673c82dcc34ce2acd5977224421d5f" style="width: 100.0%; height: 100.0%;"><br>adress: Palau                                             <br> total death: 0<br> total injured: 1</div>`)[0];
+            popup_84c69c1544e3410198742303e178b1ad.setContent(html_c2673c82dcc34ce2acd5977224421d5f);
+        
+
+        circle_marker_36b206eac73f42ae8b1a0b5979276383.bindPopup(popup_84c69c1544e3410198742303e178b1ad)
+        ;
+
+        
+    
+    
+            var circle_marker_d86d1e6cf528435a958d8d19389ae213 = L.circleMarker(
+                [41.383418, 2.15008],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_982604a9e25b4272a6aed9e7ca044197 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e1c662978e3642c393435ee32cecdd2f = $(`<div id="html_e1c662978e3642c393435ee32cecdd2f" style="width: 100.0%; height: 100.0%;"><br>adress: Calàbria / Roma                                   <br> total death: 0<br> total injured: 1</div>`)[0];
+            popup_982604a9e25b4272a6aed9e7ca044197.setContent(html_e1c662978e3642c393435ee32cecdd2f);
+        
+
+        circle_marker_d86d1e6cf528435a958d8d19389ae213.bindPopup(popup_982604a9e25b4272a6aed9e7ca044197)
+        ;
+
+        
+    
+    
+            var circle_marker_bcf7202e959e4d099f0eaa01104677ce = L.circleMarker(
+                [41.382987, 2.1597020000000002],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_651cfe3c4bf0410d95861c0fff0f05d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d6913d5e3401461ab211bd0deb678b6f = $(`<div id="html_d6913d5e3401461ab211bd0deb678b6f" style="width: 100.0%; height: 100.0%;"><br>adress: Corts Catalanes / Villarroel                      <br> total death: 0<br> total injured: 1</div>`)[0];
+            popup_651cfe3c4bf0410d95861c0fff0f05d6.setContent(html_d6913d5e3401461ab211bd0deb678b6f);
+        
+
+        circle_marker_bcf7202e959e4d099f0eaa01104677ce.bindPopup(popup_651cfe3c4bf0410d95861c0fff0f05d6)
+        ;
+
+        
+    
+    
+            var circle_marker_952d1650a75743d89a848f169d6368ca = L.circleMarker(
+                [41.383681, 2.131105],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_e2feea9768014e9691c032f7e240a960 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3eecdceb22f0427a9a75af12cb9f62b0 = $(`<div id="html_3eecdceb22f0427a9a75af12cb9f62b0" style="width: 100.0%; height: 100.0%;"><br>adress: Joan Güell / Can Bruixa                           <br> total death: 0<br> total injured: 1</div>`)[0];
+            popup_e2feea9768014e9691c032f7e240a960.setContent(html_3eecdceb22f0427a9a75af12cb9f62b0);
+        
+
+        circle_marker_952d1650a75743d89a848f169d6368ca.bindPopup(popup_e2feea9768014e9691c032f7e240a960)
+        ;
+
+        
+    
+    
+            var circle_marker_30d7964babbf4e9198decef2b0a642b0 = L.circleMarker(
+                [41.384781, 2.177469],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_8d75c6a8051343ce949a1b35f26a0389 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f517fb8bc654caa84e86de205e36f18 = $(`<div id="html_0f517fb8bc654caa84e86de205e36f18" style="width: 100.0%; height: 100.0%;"><br>adress: Laietana                                          <br> total death: 0<br> total injured: 0</div>`)[0];
+            popup_8d75c6a8051343ce949a1b35f26a0389.setContent(html_0f517fb8bc654caa84e86de205e36f18);
+        
+
+        circle_marker_30d7964babbf4e9198decef2b0a642b0.bindPopup(popup_8d75c6a8051343ce949a1b35f26a0389)
+        ;
+
+        
+    
+    
+            var circle_marker_3781e8681ef846699c3da83415d8cce7 = L.circleMarker(
+                [41.384772, 2.159596],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_b25dd0512fa64f848252036f096ee4a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_812dd03f6d9a41d39ea7beac9fcd6b04 = $(`<div id="html_812dd03f6d9a41d39ea7beac9fcd6b04" style="width: 100.0%; height: 100.0%;"><br>adress: Casanova / Diputació                              <br> total death: 0<br> total injured: 1</div>`)[0];
+            popup_b25dd0512fa64f848252036f096ee4a5.setContent(html_812dd03f6d9a41d39ea7beac9fcd6b04);
+        
+
+        circle_marker_3781e8681ef846699c3da83415d8cce7.bindPopup(popup_b25dd0512fa64f848252036f096ee4a5)
+        ;
+
+        
+    
+    
+            var circle_marker_e549b3834d6f4ce3a2f6731ae0a82d12 = L.circleMarker(
+                [41.384771, 2.155059],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_a576dd34f34d4f54ab0dd7fbe750b1b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4955196837474dc6aaf33fd27adba283 = $(`<div id="html_4955196837474dc6aaf33fd27adba283" style="width: 100.0%; height: 100.0%;"><br>adress: Comte d'Urgell / Aragó                            <br> total death: 0<br> total injured: 2</div>`)[0];
+            popup_a576dd34f34d4f54ab0dd7fbe750b1b3.setContent(html_4955196837474dc6aaf33fd27adba283);
+        
+
+        circle_marker_e549b3834d6f4ce3a2f6731ae0a82d12.bindPopup(popup_a576dd34f34d4f54ab0dd7fbe750b1b3)
+        ;
+
+        
+    
+    
+            var circle_marker_91087b0df4c240a28a8f5475e5163efc = L.circleMarker(
+                [41.38494, 2.163919],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_24920fa258374f80bd82b97a3c8462aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_539bfaac9acb49818b1d25f353439953 = $(`<div id="html_539bfaac9acb49818b1d25f353439953" style="width: 100.0%; height: 100.0%;"><br>adress: Universitat / Sant Antoni                         <br> total death: 0<br> total injured: 1</div>`)[0];
+            popup_24920fa258374f80bd82b97a3c8462aa.setContent(html_539bfaac9acb49818b1d25f353439953);
+        
+
+        circle_marker_91087b0df4c240a28a8f5475e5163efc.bindPopup(popup_24920fa258374f80bd82b97a3c8462aa)
+        ;
+
+        
+    
+    
+            var circle_marker_93d7e8c93a5b49078b30bfc2b3a0632f = L.circleMarker(
+                [41.385149, 2.154845],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_44950d0d365f4961b05283d30496dd9e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_98b39f0453664248b45afe03adfdd2df = $(`<div id="html_98b39f0453664248b45afe03adfdd2df" style="width: 100.0%; height: 100.0%;"><br>adress: Comte d'Urgell                                    <br> total death: 0<br> total injured: 1</div>`)[0];
+            popup_44950d0d365f4961b05283d30496dd9e.setContent(html_98b39f0453664248b45afe03adfdd2df);
+        
+
+        circle_marker_93d7e8c93a5b49078b30bfc2b3a0632f.bindPopup(popup_44950d0d365f4961b05283d30496dd9e)
+        ;
+
+        
+    
+    
+            var circle_marker_c5337fd3f7f94772bd6523d322e601a5 = L.circleMarker(
+                [41.388218, 2.199259],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_c9d7f9b22f49441cb0b442f46350084f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0138dcf75b00437cacbb3644fd0f5367 = $(`<div id="html_0138dcf75b00437cacbb3644fd0f5367" style="width: 100.0%; height: 100.0%;"><br>adress: Mestral                                           <br> total death: 0<br> total injured: 0</div>`)[0];
+            popup_c9d7f9b22f49441cb0b442f46350084f.setContent(html_0138dcf75b00437cacbb3644fd0f5367);
+        
+
+        circle_marker_c5337fd3f7f94772bd6523d322e601a5.bindPopup(popup_c9d7f9b22f49441cb0b442f46350084f)
+        ;
+
+        
+    
+    
+            var circle_marker_6e2d554df3c049a3beef8b852efd9403 = L.circleMarker(
+                [41.388174, 2.1748689999999997],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_54725272342b407d916b6d7be3db5221 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7fc40fde818645acbc37cf43e0d74eac = $(`<div id="html_7fc40fde818645acbc37cf43e0d74eac" style="width: 100.0%; height: 100.0%;"><br>adress: Amadeu Vives / Ortigosa                           <br> total death: 0<br> total injured: 0</div>`)[0];
+            popup_54725272342b407d916b6d7be3db5221.setContent(html_7fc40fde818645acbc37cf43e0d74eac);
+        
+
+        circle_marker_6e2d554df3c049a3beef8b852efd9403.bindPopup(popup_54725272342b407d916b6d7be3db5221)
+        ;
+
+        
+    
+    
+            var circle_marker_5f5a5ed79b884e21a96cbba46f8e314e = L.circleMarker(
+                [41.38991, 2.175363],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_0c50f3da332a4419b04c8b7cd2b0cd9d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c88d1e9b2d094dae905cf716a3ff5fdd = $(`<div id="html_c88d1e9b2d094dae905cf716a3ff5fdd" style="width: 100.0%; height: 100.0%;"><br>adress: Sant Pere / Bruc                                  <br> total death: 0<br> total injured: 1</div>`)[0];
+            popup_0c50f3da332a4419b04c8b7cd2b0cd9d.setContent(html_c88d1e9b2d094dae905cf716a3ff5fdd);
+        
+
+        circle_marker_5f5a5ed79b884e21a96cbba46f8e314e.bindPopup(popup_0c50f3da332a4419b04c8b7cd2b0cd9d)
+        ;
+
+        
+    
+    
+            var circle_marker_8dcffd2114fa455a8dfb8a23900aef73 = L.circleMarker(
+                [41.39076, 2.1494299999999997],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_ae514cd8f78c4b828d3c936faf231cdc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_58cd48eb60774fa3b8c820e7121fedd6 = $(`<div id="html_58cd48eb60774fa3b8c820e7121fedd6" style="width: 100.0%; height: 100.0%;"><br>adress: Villarroel / París                                <br> total death: 0<br> total injured: 0</div>`)[0];
+            popup_ae514cd8f78c4b828d3c936faf231cdc.setContent(html_58cd48eb60774fa3b8c820e7121fedd6);
+        
+
+        circle_marker_8dcffd2114fa455a8dfb8a23900aef73.bindPopup(popup_ae514cd8f78c4b828d3c936faf231cdc)
+        ;
+
+        
+    
+    
+            var circle_marker_3a1446076f92475198805325c4023617 = L.circleMarker(
+                [41.389776, 2.200096],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_5f4b94a674974431afa64ac13e4ccdcd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb635d2db6524c72be43eb21f650746e = $(`<div id="html_bb635d2db6524c72be43eb21f650746e" style="width: 100.0%; height: 100.0%;"><br>adress: Litoral                                           <br> total death: 0<br> total injured: 1</div>`)[0];
+            popup_5f4b94a674974431afa64ac13e4ccdcd.setContent(html_bb635d2db6524c72be43eb21f650746e);
+        
+
+        circle_marker_3a1446076f92475198805325c4023617.bindPopup(popup_5f4b94a674974431afa64ac13e4ccdcd)
+        ;
+
+        
+    
+    
+            var circle_marker_3c8df9ca04c24b39be63e8f919346868 = L.circleMarker(
+                [41.390642, 2.169896],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_ec2e047979b24c2f96cc18d75c939064 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_90a9e3c290774578ac6a7a948d11f47a = $(`<div id="html_90a9e3c290774578ac6a7a948d11f47a" style="width: 100.0%; height: 100.0%;"><br>adress: Corts Catalanes / Pau Claris                      <br> total death: 0<br> total injured: 0</div>`)[0];
+            popup_ec2e047979b24c2f96cc18d75c939064.setContent(html_90a9e3c290774578ac6a7a948d11f47a);
+        
+
+        circle_marker_3c8df9ca04c24b39be63e8f919346868.bindPopup(popup_ec2e047979b24c2f96cc18d75c939064)
+        ;
+
+        
+    
+    
+            var circle_marker_1d8027577c1a485197a7bb680a3d9719 = L.circleMarker(
+                [41.392838, 2.169053],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_2bb646b24cbe4dd9a473a5323fb73cbd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e7f6902885d7469297d4a2db239291b6 = $(`<div id="html_e7f6902885d7469297d4a2db239291b6" style="width: 100.0%; height: 100.0%;"><br>adress: Roger de Llúria                                   <br> total death: 0<br> total injured: 1</div>`)[0];
+            popup_2bb646b24cbe4dd9a473a5323fb73cbd.setContent(html_e7f6902885d7469297d4a2db239291b6);
+        
+
+        circle_marker_1d8027577c1a485197a7bb680a3d9719.bindPopup(popup_2bb646b24cbe4dd9a473a5323fb73cbd)
+        ;
+
+        
+    
+    
+            var circle_marker_c9ac33d1863e42bd916263e1dbe5af74 = L.circleMarker(
+                [41.392402000000004, 2.105526],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_b40569cc1a1e4fbfb1a23aecc7c5336f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e7b94c2e5fb348d1b00abe4803465891 = $(`<div id="html_e7b94c2e5fb348d1b00abe4803465891" style="width: 100.0%; height: 100.0%;"><br>adress: Pearson / Doctor Joaquín Albarrán                 <br> total death: 0<br> total injured: 1</div>`)[0];
+            popup_b40569cc1a1e4fbfb1a23aecc7c5336f.setContent(html_e7b94c2e5fb348d1b00abe4803465891);
+        
+
+        circle_marker_c9ac33d1863e42bd916263e1dbe5af74.bindPopup(popup_b40569cc1a1e4fbfb1a23aecc7c5336f)
+        ;
+
+        
+    
+    
+            var circle_marker_a3c73578ef174ca98308fb0af39b5a48 = L.circleMarker(
+                [41.394645000000004, 2.143549],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_ab8289bf97df43dcae62629b965148d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1ca3da357e94ce88d2527e7caac6fa1 = $(`<div id="html_a1ca3da357e94ce88d2527e7caac6fa1" style="width: 100.0%; height: 100.0%;"><br>adress: Calvet / Marià Cubí                               <br> total death: 0<br> total injured: 1</div>`)[0];
+            popup_ab8289bf97df43dcae62629b965148d1.setContent(html_a1ca3da357e94ce88d2527e7caac6fa1);
+        
+
+        circle_marker_a3c73578ef174ca98308fb0af39b5a48.bindPopup(popup_ab8289bf97df43dcae62629b965148d1)
+        ;
+
+        
+    
+    
+            var circle_marker_080ecd68af0a47179173f6306ea6d4b9 = L.circleMarker(
+                [41.395634, 2.179047],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_ca4b608f3a234fa9869edb17ebb792f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ddfc676446da4ed899b66047b2ee4827 = $(`<div id="html_ddfc676446da4ed899b66047b2ee4827" style="width: 100.0%; height: 100.0%;"><br>adress: Casp / Nàpols                                     <br> total death: 0<br> total injured: 2</div>`)[0];
+            popup_ca4b608f3a234fa9869edb17ebb792f5.setContent(html_ddfc676446da4ed899b66047b2ee4827);
+        
+
+        circle_marker_080ecd68af0a47179173f6306ea6d4b9.bindPopup(popup_ca4b608f3a234fa9869edb17ebb792f5)
+        ;
+
+        
+    
+    
+            var circle_marker_badd1a84db1549398b4442ad07725ade = L.circleMarker(
+                [41.395987, 2.171659],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_9c13a83209f54465badd3e8268964f7f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_709d2390a4994f3fb0a4b1bd58bb600c = $(`<div id="html_709d2390a4994f3fb0a4b1bd58bb600c" style="width: 100.0%; height: 100.0%;"><br>adress: Bailèn                                            <br> total death: 0<br> total injured: 1</div>`)[0];
+            popup_9c13a83209f54465badd3e8268964f7f.setContent(html_709d2390a4994f3fb0a4b1bd58bb600c);
+        
+
+        circle_marker_badd1a84db1549398b4442ad07725ade.bindPopup(popup_9c13a83209f54465badd3e8268964f7f)
+        ;
+
+        
+    
+    
+            var circle_marker_41b171390c694444ac907cc5374e2d24 = L.circleMarker(
+                [41.395845, 2.1697740000000003],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_fa4eb0d3db56470fae38bf0f770d91e0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_83eb89cafb124938a385849e35b1bafc = $(`<div id="html_83eb89cafb124938a385849e35b1bafc" style="width: 100.0%; height: 100.0%;"><br>adress: Aragó / Girona                                    <br> total death: 0<br> total injured: 1</div>`)[0];
+            popup_fa4eb0d3db56470fae38bf0f770d91e0.setContent(html_83eb89cafb124938a385849e35b1bafc);
+        
+
+        circle_marker_41b171390c694444ac907cc5374e2d24.bindPopup(popup_fa4eb0d3db56470fae38bf0f770d91e0)
+        ;
+
+        
+    
+    
+            var circle_marker_3ed1bc795a3b475290d7ebb26887fa1a = L.circleMarker(
+                [41.397546999999996, 2.1697599999999997],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_af61e0a6aa05416580be21d10de23827 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_366e3d1d7edb4c65912f3cecc0a98cad = $(`<div id="html_366e3d1d7edb4c65912f3cecc0a98cad" style="width: 100.0%; height: 100.0%;"><br>adress: València / Bailèn                                 <br> total death: 0<br> total injured: 1</div>`)[0];
+            popup_af61e0a6aa05416580be21d10de23827.setContent(html_366e3d1d7edb4c65912f3cecc0a98cad);
+        
+
+        circle_marker_3ed1bc795a3b475290d7ebb26887fa1a.bindPopup(popup_af61e0a6aa05416580be21d10de23827)
+        ;
+
+        
+    
+    
+            var circle_marker_418fe1dd375148018544265e7e51fae4 = L.circleMarker(
+                [41.397636999999996, 2.1608],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_6a738890e8904d43b7c212a6a6ecd8d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eefdfb6298964948b6bcf0d9d73cca97 = $(`<div id="html_eefdfb6298964948b6bcf0d9d73cca97" style="width: 100.0%; height: 100.0%;"><br>adress: Santa Tecla / Còrsega                             <br> total death: 0<br> total injured: 1</div>`)[0];
+            popup_6a738890e8904d43b7c212a6a6ecd8d7.setContent(html_eefdfb6298964948b6bcf0d9d73cca97);
+        
+
+        circle_marker_418fe1dd375148018544265e7e51fae4.bindPopup(popup_6a738890e8904d43b7c212a6a6ecd8d7)
+        ;
+
+        
+    
+    
+            var circle_marker_bcaa1df725c44fc8a7a675c281972c32 = L.circleMarker(
+                [41.398416999999995, 2.126003],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_ef066c1e1d424930af76d6e5006d1031 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e2ca65e22024045949232d6ebc6c9e0 = $(`<div id="html_3e2ca65e22024045949232d6ebc6c9e0" style="width: 100.0%; height: 100.0%;"><br>adress: Augusta                                           <br> total death: 0<br> total injured: 1</div>`)[0];
+            popup_ef066c1e1d424930af76d6e5006d1031.setContent(html_3e2ca65e22024045949232d6ebc6c9e0);
+        
+
+        circle_marker_bcaa1df725c44fc8a7a675c281972c32.bindPopup(popup_ef066c1e1d424930af76d6e5006d1031)
+        ;
+
+        
+    
+    
+            var circle_marker_5e98b4600a25472cb4e47bb102e2b33b = L.circleMarker(
+                [41.399671000000005, 2.148299],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_bf22fd4539a54436849bc82eb00cc14f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e7b891ed03994925abd2dbaafb3a54a9 = $(`<div id="html_e7b891ed03994925abd2dbaafb3a54a9" style="width: 100.0%; height: 100.0%;"><br>adress: Madrazo / Alfons XII                              <br> total death: 0<br> total injured: 2</div>`)[0];
+            popup_bf22fd4539a54436849bc82eb00cc14f.setContent(html_e7b891ed03994925abd2dbaafb3a54a9);
+        
+
+        circle_marker_5e98b4600a25472cb4e47bb102e2b33b.bindPopup(popup_bf22fd4539a54436849bc82eb00cc14f)
+        ;
+
+        
+    
+    
+            var circle_marker_7fc635cc3e10471884b2a2108efb56be = L.circleMarker(
+                [41.400128, 2.166375],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_9c76a1c51d4a4aea9aa98411908943cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_44b7a3460e50441b999a32fb05253332 = $(`<div id="html_44b7a3460e50441b999a32fb05253332" style="width: 100.0%; height: 100.0%;"><br>adress: Rosselló / Bailèn                                 <br> total death: 0<br> total injured: 2</div>`)[0];
+            popup_9c76a1c51d4a4aea9aa98411908943cd.setContent(html_44b7a3460e50441b999a32fb05253332);
+        
+
+        circle_marker_7fc635cc3e10471884b2a2108efb56be.bindPopup(popup_9c76a1c51d4a4aea9aa98411908943cd)
+        ;
+
+        
+    
+    
+            var circle_marker_50932f0b9a2e479e999d016a549d5451 = L.circleMarker(
+                [41.400464, 2.150867],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_3473aa206038464cae0b45e4a1ebdcc7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6fe3fb550d174da298d591e35a669e8a = $(`<div id="html_6fe3fb550d174da298d591e35a669e8a" style="width: 100.0%; height: 100.0%;"><br>adress: Augusta                                           <br> total death: 0<br> total injured: 0</div>`)[0];
+            popup_3473aa206038464cae0b45e4a1ebdcc7.setContent(html_6fe3fb550d174da298d591e35a669e8a);
+        
+
+        circle_marker_50932f0b9a2e479e999d016a549d5451.bindPopup(popup_3473aa206038464cae0b45e4a1ebdcc7)
+        ;
+
+        
+    
+    
+            var circle_marker_c07cb355943c4ebf8e42f517c15388fc = L.circleMarker(
+                [41.400877, 2.18351],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_179b63dd03aa43bdb70ec22dd1f8fbc5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c176d47702dc42d9a1dbab0d2c7c4a8b = $(`<div id="html_c176d47702dc42d9a1dbab0d2c7c4a8b" style="width: 100.0%; height: 100.0%;"><br>adress: Corts Catalanes / Padilla                         <br> total death: 0<br> total injured: 1</div>`)[0];
+            popup_179b63dd03aa43bdb70ec22dd1f8fbc5.setContent(html_c176d47702dc42d9a1dbab0d2c7c4a8b);
+        
+
+        circle_marker_c07cb355943c4ebf8e42f517c15388fc.bindPopup(popup_179b63dd03aa43bdb70ec22dd1f8fbc5)
+        ;
+
+        
+    
+    
+            var circle_marker_38ea1820056c4c2b8f2461672d8e149b = L.circleMarker(
+                [41.400958, 2.151194],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_350f03ab744a4036a5cb28586bc2579b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_753072ffcbf14c3d9950138576459593 = $(`<div id="html_753072ffcbf14c3d9950138576459593" style="width: 100.0%; height: 100.0%;"><br>adress: Prat / Príncep d'Astúries                         <br> total death: 0<br> total injured: 0</div>`)[0];
+            popup_350f03ab744a4036a5cb28586bc2579b.setContent(html_753072ffcbf14c3d9950138576459593);
+        
+
+        circle_marker_38ea1820056c4c2b8f2461672d8e149b.bindPopup(popup_350f03ab744a4036a5cb28586bc2579b)
+        ;
+
+        
+    
+    
+            var circle_marker_d8ae8ee439e44137a87456f6e5be1e27 = L.circleMarker(
+                [41.401785, 2.175441],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_df7e13ed13cf4b619daee92f433ef1e0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c53b5c1828ae48259fed6546bcb78d7c = $(`<div id="html_c53b5c1828ae48259fed6546bcb78d7c" style="width: 100.0%; height: 100.0%;"><br>adress: València / Sardenya                               <br> total death: 0<br> total injured: 2</div>`)[0];
+            popup_df7e13ed13cf4b619daee92f433ef1e0.setContent(html_c53b5c1828ae48259fed6546bcb78d7c);
+        
+
+        circle_marker_d8ae8ee439e44137a87456f6e5be1e27.bindPopup(popup_df7e13ed13cf4b619daee92f433ef1e0)
+        ;
+
+        
+    
+    
+            var circle_marker_055e1c7806314245bde9e72a1ee8da4f = L.circleMarker(
+                [41.401201, 2.114089],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_cc310e33f00b4c11b2b40df91a6979e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_99d121f031a04907b7f3f0b5377ea167 = $(`<div id="html_99d121f031a04907b7f3f0b5377ea167" style="width: 100.0%; height: 100.0%;"><br>adress: Can Caralleu                                      <br> total death: 0<br> total injured: 2</div>`)[0];
+            popup_cc310e33f00b4c11b2b40df91a6979e7.setContent(html_99d121f031a04907b7f3f0b5377ea167);
+        
+
+        circle_marker_055e1c7806314245bde9e72a1ee8da4f.bindPopup(popup_cc310e33f00b4c11b2b40df91a6979e7)
+        ;
+
+        
+    
+    
+            var circle_marker_28535eb3463e435baccd5d0e93a1656b = L.circleMarker(
+                [41.404828, 2.184199],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_99716f02bf054d728671f5e5b3c8a571 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a607443e601948f6aae3a37218de9022 = $(`<div id="html_a607443e601948f6aae3a37218de9022" style="width: 100.0%; height: 100.0%;"><br>adress: Consell de Cent                                   <br> total death: 0<br> total injured: 0</div>`)[0];
+            popup_99716f02bf054d728671f5e5b3c8a571.setContent(html_a607443e601948f6aae3a37218de9022);
+        
+
+        circle_marker_28535eb3463e435baccd5d0e93a1656b.bindPopup(popup_99716f02bf054d728671f5e5b3c8a571)
+        ;
+
+        
+    
+    
+            var circle_marker_4e20d659958b4485b2f3c38b20cc5bdb = L.circleMarker(
+                [41.407163, 2.1914700000000003],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_d1623c2dd07a42e6a81f6ff46b84cb4f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e16675f87e7e46e1a282e61e4278ead4 = $(`<div id="html_e16675f87e7e46e1a282e61e4278ead4" style="width: 100.0%; height: 100.0%;"><br>adress: Corts Catalanes                                   <br> total death: 0<br> total injured: 2</div>`)[0];
+            popup_d1623c2dd07a42e6a81f6ff46b84cb4f.setContent(html_e16675f87e7e46e1a282e61e4278ead4);
+        
+
+        circle_marker_4e20d659958b4485b2f3c38b20cc5bdb.bindPopup(popup_d1623c2dd07a42e6a81f6ff46b84cb4f)
+        ;
+
+        
+    
+    
+            var circle_marker_2c6a303d2ca44209a0a72a54e85301b6 = L.circleMarker(
+                [41.409131, 2.148331],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_88a0c35e95f648b08f8a38f0c0b78259 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b4885f65c4e4e46aff0f5ab25fe92e4 = $(`<div id="html_5b4885f65c4e4e46aff0f5ab25fe92e4" style="width: 100.0%; height: 100.0%;"><br>adress: Vallcarca / Ballester                             <br> total death: 0<br> total injured: 0</div>`)[0];
+            popup_88a0c35e95f648b08f8a38f0c0b78259.setContent(html_5b4885f65c4e4e46aff0f5ab25fe92e4);
+        
+
+        circle_marker_2c6a303d2ca44209a0a72a54e85301b6.bindPopup(popup_88a0c35e95f648b08f8a38f0c0b78259)
+        ;
+
+        
+    
+    
+            var circle_marker_08cae0017cf24ab59facc7ee31067ea6 = L.circleMarker(
+                [41.409906, 2.158835],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_d5b3c6a2828c4ab48eae6bd64d820eae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4c9e65933c6d419bbeb9ca9960834428 = $(`<div id="html_4c9e65933c6d419bbeb9ca9960834428" style="width: 100.0%; height: 100.0%;"><br>adress: Escorial / Mossèn Masdexexart                     <br> total death: 0<br> total injured: 0</div>`)[0];
+            popup_d5b3c6a2828c4ab48eae6bd64d820eae.setContent(html_4c9e65933c6d419bbeb9ca9960834428);
+        
+
+        circle_marker_08cae0017cf24ab59facc7ee31067ea6.bindPopup(popup_d5b3c6a2828c4ab48eae6bd64d820eae)
+        ;
+
+        
+    
+    
+            var circle_marker_7249d33e93b54e67b7824938baaeaba3 = L.circleMarker(
+                [41.410658000000005, 2.168471],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_e1c4249049eb4d0ba0c36a13e6bfe5d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_22092b4b284e49b4a2bd20aa04ba585a = $(`<div id="html_22092b4b284e49b4a2bd20aa04ba585a" style="width: 100.0%; height: 100.0%;"><br>adress: Llorens i Barba / Lepant                          <br> total death: 0<br> total injured: 1</div>`)[0];
+            popup_e1c4249049eb4d0ba0c36a13e6bfe5d7.setContent(html_22092b4b284e49b4a2bd20aa04ba585a);
+        
+
+        circle_marker_7249d33e93b54e67b7824938baaeaba3.bindPopup(popup_e1c4249049eb4d0ba0c36a13e6bfe5d7)
+        ;
+
+        
+    
+    
+            var circle_marker_e3d2c7fda1a64a79892291ec7574d092 = L.circleMarker(
+                [41.411952, 2.1632029999999998],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_cedcf4afb26c48e08b969c91e50d2b83 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a00667d88ae24ba7be0c2d5c1ac10c29 = $(`<div id="html_a00667d88ae24ba7be0c2d5c1ac10c29" style="width: 100.0%; height: 100.0%;"><br>adress: Guinardó                                          <br> total death: 0<br> total injured: 1</div>`)[0];
+            popup_cedcf4afb26c48e08b969c91e50d2b83.setContent(html_a00667d88ae24ba7be0c2d5c1ac10c29);
+        
+
+        circle_marker_e3d2c7fda1a64a79892291ec7574d092.bindPopup(popup_cedcf4afb26c48e08b969c91e50d2b83)
+        ;
+
+        
+    
+    
+            var circle_marker_0d0a568f91ae4dfca9df948c2c073420 = L.circleMarker(
+                [41.413038, 2.187189],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_42d4dd3cc7e7497ebedaf2574393fe12 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b51f4994a276430cbccb143578b9818d = $(`<div id="html_b51f4994a276430cbccb143578b9818d" style="width: 100.0%; height: 100.0%;"><br>adress: Meridiana                                         <br> total death: 0<br> total injured: 2</div>`)[0];
+            popup_42d4dd3cc7e7497ebedaf2574393fe12.setContent(html_b51f4994a276430cbccb143578b9818d);
+        
+
+        circle_marker_0d0a568f91ae4dfca9df948c2c073420.bindPopup(popup_42d4dd3cc7e7497ebedaf2574393fe12)
+        ;
+
+        
+    
+    
+            var circle_marker_39baaa9c8b6d487e91288a810cac4e71 = L.circleMarker(
+                [41.41556, 2.1359169999999996],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_054aed357ffd4d1fa1099e351b12c37b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_44731e17cca349548639d6bedb225720 = $(`<div id="html_44731e17cca349548639d6bedb225720" style="width: 100.0%; height: 100.0%;"><br>adress: Alfonso Comín                                     <br> total death: 0<br> total injured: 0</div>`)[0];
+            popup_054aed357ffd4d1fa1099e351b12c37b.setContent(html_44731e17cca349548639d6bedb225720);
+        
+
+        circle_marker_39baaa9c8b6d487e91288a810cac4e71.bindPopup(popup_054aed357ffd4d1fa1099e351b12c37b)
+        ;
+
+        
+    
+    
+            var circle_marker_896cf58b152c41278b23ad6508cacc19 = L.circleMarker(
+                [41.417918, 2.211045],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_65f51ea555c14663ac0c9143735de974 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5ff5914da8d1419db8d97f8ebd58b0e4 = $(`<div id="html_5ff5914da8d1419db8d97f8ebd58b0e4" style="width: 100.0%; height: 100.0%;"><br>adress: Prim                                              <br> total death: 0<br> total injured: 1</div>`)[0];
+            popup_65f51ea555c14663ac0c9143735de974.setContent(html_5ff5914da8d1419db8d97f8ebd58b0e4);
+        
+
+        circle_marker_896cf58b152c41278b23ad6508cacc19.bindPopup(popup_65f51ea555c14663ac0c9143735de974)
+        ;
+
+        
+    
+    
+            var circle_marker_ee790fb90a2343d08810e368420a4b9e = L.circleMarker(
+                [41.420491, 2.207162],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_6eb943de89344862842576bcc6e8bba6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c9bc42a2f554210b7e60bec18cba048 = $(`<div id="html_5c9bc42a2f554210b7e60bec18cba048" style="width: 100.0%; height: 100.0%;"><br>adress: Prim / Andrade                                    <br> total death: 0<br> total injured: 1</div>`)[0];
+            popup_6eb943de89344862842576bcc6e8bba6.setContent(html_5c9bc42a2f554210b7e60bec18cba048);
+        
+
+        circle_marker_ee790fb90a2343d08810e368420a4b9e.bindPopup(popup_6eb943de89344862842576bcc6e8bba6)
+        ;
+
+        
+    
+    
+            var circle_marker_68d765ca288644fa805bf9a044303e2b = L.circleMarker(
+                [41.421154, 2.150184],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_1fdc51dbc8a04201b839c04173b33fa2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_321754ae8eab4d0c8554cc5bce138244 = $(`<div id="html_321754ae8eab4d0c8554cc5bce138244" style="width: 100.0%; height: 100.0%;"><br>adress: Llobregós / Batet                                 <br> total death: 0<br> total injured: 2</div>`)[0];
+            popup_1fdc51dbc8a04201b839c04173b33fa2.setContent(html_321754ae8eab4d0c8554cc5bce138244);
+        
+
+        circle_marker_68d765ca288644fa805bf9a044303e2b.bindPopup(popup_1fdc51dbc8a04201b839c04173b33fa2)
+        ;
+
+        
+    
+    
+            var circle_marker_9ec5a13b40e040aebb19d52d52f5e000 = L.circleMarker(
+                [41.424724, 2.167418],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_f20640d958cb4e9ba9fab818bcd80e24 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9253758ad57744c0a59ee8fab50e651c = $(`<div id="html_9253758ad57744c0a59ee8fab50e651c" style="width: 100.0%; height: 100.0%;"><br>adress: Pedrell                                           <br> total death: 0<br> total injured: 0</div>`)[0];
+            popup_f20640d958cb4e9ba9fab818bcd80e24.setContent(html_9253758ad57744c0a59ee8fab50e651c);
+        
+
+        circle_marker_9ec5a13b40e040aebb19d52d52f5e000.bindPopup(popup_f20640d958cb4e9ba9fab818bcd80e24)
+        ;
+
+        
+    
+    
+            var circle_marker_42b59dec2363460683ef61f9d132ffb7 = L.circleMarker(
+                [41.428584, 2.158492],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_d971d0a3e6524546ac6b4ade4211e39c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_55f58e9635ca4535845b45d1a96a46f0 = $(`<div id="html_55f58e9635ca4535845b45d1a96a46f0" style="width: 100.0%; height: 100.0%;"><br>adress: Tossa / Santa Joana d'Arc                         <br> total death: 0<br> total injured: 1</div>`)[0];
+            popup_d971d0a3e6524546ac6b4ade4211e39c.setContent(html_55f58e9635ca4535845b45d1a96a46f0);
+        
+
+        circle_marker_42b59dec2363460683ef61f9d132ffb7.bindPopup(popup_d971d0a3e6524546ac6b4ade4211e39c)
+        ;
+
+        
+    
+    
+            var circle_marker_0b3d1c8a9c3147eaba370f06842087b4 = L.circleMarker(
+                [41.428384, 2.090799],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_e3565215352b44a19c30bbd164ad91fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed84afdb9ffe4aa0a6c3d1e70231ce2e = $(`<div id="html_ed84afdb9ffe4aa0a6c3d1e70231ce2e" style="width: 100.0%; height: 100.0%;"><br>adress: Vallvidrera a les Planes                          <br> total death: 0<br> total injured: 1</div>`)[0];
+            popup_e3565215352b44a19c30bbd164ad91fb.setContent(html_ed84afdb9ffe4aa0a6c3d1e70231ce2e);
+        
+
+        circle_marker_0b3d1c8a9c3147eaba370f06842087b4.bindPopup(popup_e3565215352b44a19c30bbd164ad91fb)
+        ;
+
+        
+    
+    
+            var circle_marker_89b18fb60c1d4bcba66f640ca21459a1 = L.circleMarker(
+                [41.431182, 2.160386],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_737593ecc34149c5aa368138a5ee6244 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f3d981b5086d4ebf898bfb6027ce1588 = $(`<div id="html_f3d981b5086d4ebf898bfb6027ce1588" style="width: 100.0%; height: 100.0%;"><br>adress: Horta                                             <br> total death: 0<br> total injured: 0</div>`)[0];
+            popup_737593ecc34149c5aa368138a5ee6244.setContent(html_f3d981b5086d4ebf898bfb6027ce1588);
+        
+
+        circle_marker_89b18fb60c1d4bcba66f640ca21459a1.bindPopup(popup_737593ecc34149c5aa368138a5ee6244)
+        ;
+
+        
+    
+    
+            var circle_marker_a6af20aee382484e8886222aa23ebe82 = L.circleMarker(
+                [41.433478, 2.169563],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_bb5ecaf90be04d9ab4c781dc89504ce2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c61098ced874cf28b28a1dbb66777a2 = $(`<div id="html_1c61098ced874cf28b28a1dbb66777a2" style="width: 100.0%; height: 100.0%;"><br>adress: Travau                                            <br> total death: 0<br> total injured: 0</div>`)[0];
+            popup_bb5ecaf90be04d9ab4c781dc89504ce2.setContent(html_1c61098ced874cf28b28a1dbb66777a2);
+        
+
+        circle_marker_a6af20aee382484e8886222aa23ebe82.bindPopup(popup_bb5ecaf90be04d9ab4c781dc89504ce2)
+        ;
+
+        
+    
+    
+            var circle_marker_a5fd190772b34660b263c42e78a7020c = L.circleMarker(
+                [41.436613, 2.184402],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_31bc13c1ca994d1cb27821d181732bd2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e3c1fe78cb1413285bff4ec9c8213e8 = $(`<div id="html_5e3c1fe78cb1413285bff4ec9c8213e8" style="width: 100.0%; height: 100.0%;"><br>adress: Meridiana / Rosselló i Porcel                     <br> total death: 0<br> total injured: 2</div>`)[0];
+            popup_31bc13c1ca994d1cb27821d181732bd2.setContent(html_5e3c1fe78cb1413285bff4ec9c8213e8);
+        
+
+        circle_marker_a5fd190772b34660b263c42e78a7020c.bindPopup(popup_31bc13c1ca994d1cb27821d181732bd2)
+        ;
+
+        
+    
+    
+            var circle_marker_d961165b7bcc4439886be12d149d37df = L.circleMarker(
+                [41.441877000000005, 2.1865799999999997],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_a96f27e4636e495bbd54d52b5001efd7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_80742003939b470ab8122c7b06222f55 = $(`<div id="html_80742003939b470ab8122c7b06222f55" style="width: 100.0%; height: 100.0%;"><br>adress: Meridiana                                         <br> total death: 0<br> total injured: 1</div>`)[0];
+            popup_a96f27e4636e495bbd54d52b5001efd7.setContent(html_80742003939b470ab8122c7b06222f55);
+        
+
+        circle_marker_d961165b7bcc4439886be12d149d37df.bindPopup(popup_a96f27e4636e495bbd54d52b5001efd7)
+        ;
+
+        
+    
+    
+            var circle_marker_7a8c8ddff3404c0985025f333e7705ec = L.circleMarker(
+                [41.44246, 2.1867259999999997],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_a63a9bc6eedc4b25813c1d493fc4b277 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a5e7c64e6b3944328b11d7b709104e54 = $(`<div id="html_a5e7c64e6b3944328b11d7b709104e54" style="width: 100.0%; height: 100.0%;"><br>adress: Meridiana                                         <br> total death: 0<br> total injured: 2</div>`)[0];
+            popup_a63a9bc6eedc4b25813c1d493fc4b277.setContent(html_a5e7c64e6b3944328b11d7b709104e54);
+        
+
+        circle_marker_7a8c8ddff3404c0985025f333e7705ec.bindPopup(popup_a63a9bc6eedc4b25813c1d493fc4b277)
+        ;
+
+        
+    
+    
+            var circle_marker_29ff72b6688a44f0a02d5413ba08d0cc = L.circleMarker(
+                [41.442816, 2.199734],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_10c50fe840794115b2c239fbcd162df0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_203fe43e9e644288bf42493ff19aac4e = $(`<div id="html_203fe43e9e644288bf42493ff19aac4e" style="width: 100.0%; height: 100.0%;"><br>adress: Ciutat d'Asunción / Potosí                        <br> total death: 0<br> total injured: 2</div>`)[0];
+            popup_10c50fe840794115b2c239fbcd162df0.setContent(html_203fe43e9e644288bf42493ff19aac4e);
+        
+
+        circle_marker_29ff72b6688a44f0a02d5413ba08d0cc.bindPopup(popup_10c50fe840794115b2c239fbcd162df0)
+        ;
+
+        
+    
+    
+            var circle_marker_f6291c1095a04d0ab2e42cd263bc53bc = L.circleMarker(
+                [41.443699, 2.18595],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_421e718d53ae422db73579faf582621e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f4e5f6b58bba4e0e87154d3943927c80 = $(`<div id="html_f4e5f6b58bba4e0e87154d3943927c80" style="width: 100.0%; height: 100.0%;"><br>adress: Meridiana / Santa Coloma                          <br> total death: 0<br> total injured: 0</div>`)[0];
+            popup_421e718d53ae422db73579faf582621e.setContent(html_f4e5f6b58bba4e0e87154d3943927c80);
+        
+
+        circle_marker_f6291c1095a04d0ab2e42cd263bc53bc.bindPopup(popup_421e718d53ae422db73579faf582621e)
+        ;
+
+        
+    
+    
+            var circle_marker_3b13490af69d4a86bbb9843883c33695 = L.circleMarker(
+                [41.446719, 2.184825],
+                {"bubblingMouseEvents": true, "color": "#0A8A9F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0A8A9F", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_7ea37b4e021e4174a8cc6d3bbdb75476);
+        
+    
+        var popup_cdab86c9c11644a19b154e2d1d99a211 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_38a753e35b4346fc827cd85db9e3ed08 = $(`<div id="html_38a753e35b4346fc827cd85db9e3ed08" style="width: 100.0%; height: 100.0%;"><br>adress: Favència / Palamós                                <br> total death: 0<br> total injured: 1</div>`)[0];
+            popup_cdab86c9c11644a19b154e2d1d99a211.setContent(html_38a753e35b4346fc827cd85db9e3ed08);
+        
+
+        circle_marker_3b13490af69d4a86bbb9843883c33695.bindPopup(popup_cdab86c9c11644a19b154e2d1d99a211)
+        ;
+
+        
+    
+</script>
